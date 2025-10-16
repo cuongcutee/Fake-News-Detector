@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fake-news-detector"
+version = "0.1.0"
+description = "Vietnamese financial news collection and fake news detection toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Fake News Detector Team" }
+]
+dependencies = [
+  "feedparser>=6.0.10",
+  "requests>=2.31.0",
+  "beautifulsoup4>=4.12.0",
+  "pandas>=2.0.0",
+  "scikit-learn>=1.3.0",
+  "joblib>=1.3.0",
+  "tqdm>=4.66.0"
+]
+
+[project.urls]
+Homepage = "https://example.com/fake-news-detector"
+Repository = "https://example.com/fake-news-detector.git"
